@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	height: 300px;
+	margin: 15px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+h1 {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 3em;
+	border: 8px solid rgb(234, 156, 174, 0.5);
+/*	border-bottom: 2px solid rgb(195, 98, 121);*/
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+}
