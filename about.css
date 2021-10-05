@@ -68,7 +68,7 @@
 a:link {
 	text-decoration: none;
 	color: inherit;
-}
+  }
   
 a:visited {
 	text-decoration: none;
@@ -83,4 +83,41 @@ a:hover {
 a:active {
 	text-decoration: underline;
 	color: inherit;
+}
+
+.about {
+    background-color: lightpink;
+	opacity: 0.75;
+    z-index: 2;
+    width: 45%;
+    height: 75%;
+	padding-right: 5%;
+    margin-left: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin-right: 5%; */
+}
+
+.emphasis {
+	font-style: italic;
+}
+
+.about h1 {
+	font-family: 'Amatic SC', cursive;
+	font-style: normal;
+	font-size: calc(100% + 11vh);
+	font-weight: normal;
+	font-weight: 500;
+	text-align: right;
+}
+
+.about p {
+	font-family: 'Yomogi', cursive;
+	text-align: right;
+	font-size: 1em;
+	padding-left: 10%;
+	font-size: calc(100% + 4vh);
+	font-size: calc(100% + 2vw);
+	font-weight: 200;
 }
