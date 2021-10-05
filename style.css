@@ -13,38 +13,49 @@
 }
 
 .left {
-    background-image: url("sakurabgleft.jpg");
+    background-image: url("iewek-gnos-0-oPmFrlubo-unsplash.jpg");
 	background-size: cover;
-	/* opacity: 0.5; */
-	width: 35%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	/* width: 100%; */
 }
-
-.left p {
-	font-family: 'Cinzel Decorative', cursive;
-}
-
-.left p:first-child {
-	font-size: 3em;
-	padding-top: 20px;
-	padding-left: 20px;
-	font-style: italic;
-	opacity: 0.8;
-}
-
-.left p:last-child {
-	font-size: 1em;
-	padding-left: 100px;
-	font-style: italic;
-	opacity: 0.8;
-}
-
-
 
 .right {
     background-color:lightpink;
-	opacity: 0.5;
-	width: 65%;
+	opacity: 0.55;
+	width:40%;
+	height: 75%;
+	display: inline-block;
 }
+
+.right p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	/* font-weight: bold; */
+	padding-left: 90px;
+	padding-bottom: 20px;
+	/* font-style: italic; */
+	
+}
+
+.right p:first-child {
+	font-size: 6em;
+	padding-top: 50px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	font-style: normal;
+	
+}
+
+.right p:last-child {
+	/* font-size: 2em; */
+	/* padding-left: 100px; */
+	/* font-style: italic; */
+	/* opacity: 0.8; */
+}
+
+
 
 img:hover {
 	transform: scale(1.1);
