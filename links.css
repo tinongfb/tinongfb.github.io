@@ -110,7 +110,7 @@ a:active {
 }
 
 .emphasis {
-	font-style: italic;
+	opacity: 0.6;
 }
 
 .link h1 {
