@@ -185,7 +185,7 @@ footer {
 }
 .about img {
 		transition: all 1s;
-		padding: 5px;
+		/* padding: 5px; */
 }
 .about img:hover {
 		transform: scale(1.5);
