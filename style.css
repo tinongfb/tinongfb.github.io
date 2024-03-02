@@ -69,10 +69,10 @@
 	background:#fff;
 }
 
-.right p:first-child:hover {
+/* .right p:first-child:hover {
 	transform: scale(0.9);
     font-size: 10em;
-}
+} */
 
 a:link {
 	text-decoration: none;
